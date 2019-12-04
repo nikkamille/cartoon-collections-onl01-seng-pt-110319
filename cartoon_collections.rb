@@ -12,7 +12,7 @@ def long_planeteer_calls(planeteer_calls) # code an argument here
   planeteer_calls.any? { |calls| calls.length > 4 } 
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(cheese) # code an argument here
+  
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
