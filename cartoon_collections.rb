@@ -15,6 +15,7 @@ end
 def find_the_cheese(cheese) # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   maybe_cheese = ["mango", "cheddar", "shoe"]
+  cheese.find { |type|
   if cheese.include?(cheese_types) 
     puts "#{cheese}"
   end
