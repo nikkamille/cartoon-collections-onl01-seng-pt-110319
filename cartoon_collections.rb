@@ -17,6 +17,6 @@ potential_cheese = ["mango", "cheddar", "shoe"]
 def find_the_cheese(potential_cheese) # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   potential_cheese.find do |type| 
-    cheese_types.include?(type) 
+    cheese_types.include?(type)
   end
 end
