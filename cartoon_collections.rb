@@ -11,6 +11,7 @@ end
 def long_planeteer_calls(calls) # code an argument here
   calls_long.length > 4
   calls_short.length > 4
+  binding.pry 
 end
 
 def find_the_cheese# code an argument here
